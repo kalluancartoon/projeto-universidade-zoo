@@ -41,6 +41,10 @@ body{
     background: var(--bg);
 }
 
+section{
+    padding:2rem 7%;
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -187,6 +191,33 @@ body{
     text-align: center;
 }
 
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/home-img.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:rgba(255, 113, 19, 0.918);
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.8;
+    padding:1rem 0;
+    color: #ffffffb2;
+}
+
 
 
 
@@ -223,6 +254,10 @@ body{
     header{
         padding:1.5rem 2rem;
     }
+
+    section{
+        padding:2rem 7%;
+    }
     
     #menu-btn{
         display: inline-block;        
@@ -252,6 +287,19 @@ body{
         width: 90%;
         right: 2rem;
     }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+    }
+    .home .content h3{
+        font-size: 4.5rem;
+
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
     
 }
 
@@ -263,6 +311,11 @@ body{
     header{
         padding:1.5rem 2rem;
     }
+
+    section{
+        padding:2rem 7%;
+    }
+
     
     #menu-btn{
         display: inline-block;        
