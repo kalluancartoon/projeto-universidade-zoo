@@ -221,7 +221,7 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:rgba(255, 113, 19, 0.918);
+    color:#0505fcf1;
 }
 
 .home .content p{
@@ -229,7 +229,7 @@ section{
     font-weight: bolder;
     line-height: 1.8;
     padding:1rem 0;
-    color: #ffffffb2;
+    color: #fff;
 }
 
 .sobre .row{
@@ -295,7 +295,84 @@ section{
 .animais .box-container .box:hover > *{
     color:var(--black);
 }
+.localizacao .row{
+    display: flex;    
+    background: var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
 
+.localizacao .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.localizacao .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.localizacao .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--bg);
+    border: var(--border);
+}
+
+.localizacao .row form .inputBox span{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.localizacao .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap:1rem;
+}
+
+.footer .links a{
+    padding: .7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+}
+
+.footer .links a:hover{
+    background: var(--main-color);
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}
 
 
 
