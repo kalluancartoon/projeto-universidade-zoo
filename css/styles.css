@@ -54,6 +54,7 @@ section{
 }
 
 .heading span{
+
     color: var(--main-color);
     text-transform: uppercase;
 }
@@ -231,7 +232,7 @@ section{
     color: #ffffffb2;
 }
 
-.about .row{
+.sobre .row{
     display: flex;
     align-items: center;
     background: var(--black);
@@ -239,31 +240,63 @@ section{
 
 }
 
-.about .row .image{
+.sobre .row .image{
     flex:1 1 45rem;
 }
 
-.about .row .image img{
+.sobre .row .image img{
     width: 100%;    
 }
 
-.about .row .content{
+.sobre .row .content{
     flex:1 1 45rem;
     padding:2rem;
     
 }
 
-.about .row .content h3{
+.sobre .row .content h3{
     font-size: 3rem;
     color: #fff;
 }
 
-.about .row .content p{
+.sobre .row .content p{
     font-size: 1.6rem;
     color:#ccc;
     padding: 1rem 0;
     line-height: 1.8;
 }
+
+.animais .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.animais .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.animais .box-container .box img{
+    height: 10rem;
+}
+
+.animais .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.animais .box-container .box:hover{
+    background: #fff;
+}
+
+.animais .box-container .box:hover > *{
+    color:var(--black);
+}
+
+
 
 
 
@@ -302,20 +335,7 @@ section{
     section{
         padding:2rem 7%;
     }
-
-    .heading{
-        text-align: center;
-        color:#fff;
-        text-transform: uppercase;
-        padding-bottom: 3.5rem;
-        font-size: 4rem;    
-    }
-
-    .heading span{
-        color: var(--main-color);
-        text-transform: uppercase;
-    }
-    
+     
     #menu-btn{
         display: inline-block;        
     }
