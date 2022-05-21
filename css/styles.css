@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#d3ad7f;
-    --black:#13131a;
-    --bg:#010103;
+    --main-color:#03b612ec;
+    --black:#5af8a1a6;
+    --bg:#0f3102;
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -209,7 +209,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../img/home-img.png) no-repeat;
+    background: url(../img/home2-img.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -221,7 +221,7 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#0505fcf1;
+    color:#24722b;
 }
 
 .home .content p{
@@ -261,7 +261,7 @@ section{
 
 .sobre .row .content p{
     font-size: 1.6rem;
-    color:#ccc;
+    color:#fff;
     padding: 1rem 0;
     line-height: 1.8;
 }
